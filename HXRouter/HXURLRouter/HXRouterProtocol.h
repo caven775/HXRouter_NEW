@@ -19,6 +19,6 @@
  
  @param request 跳转参数
  */
-- (void)HX_routeHandle:(HXRouteRequest *)request;
+- (void)hx_routeHandle:(HXRouteRequest *)request;
 
 @end

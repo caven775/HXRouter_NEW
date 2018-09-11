@@ -259,8 +259,8 @@ controllerIdentifier:(NSString *)controllerIdentifier
         }
         if (vc) {
             handle = YES;
-            if ([vc respondsToSelector:@selector(HX_routeHandle:)]) {
-                [vc HX_routeHandle:request];
+            if ([vc respondsToSelector:@selector(hx_routeHandle:)]) {
+                [vc hx_routeHandle:request];
             }
             
             if (request.context.transitions == HXControllerTransitionsPush) {
